@@ -9,7 +9,7 @@ const projects = [
   {
     title: "AI-Chat Application",
     description:
-      "A real-time AI-powered chat application built with React and Django, enabling intelligent conversations and predictive responses.",
+      "A real-time AI-powered chat application built with Next.js, enabling intelligent conversations and predictive responses.",
     tags: ["Next.js", "PostgreSQL"],
     image: ai_chat, // use imported image variable
     link: "#",
