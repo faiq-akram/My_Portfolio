@@ -83,7 +83,7 @@ export const HeroSection = () => {
           className="mt-20 grid grid-cols-2 md:grid-cols-2 gap-8"
         >
           {[
-            { value: "1+", label: "Years Experience" },
+            { value: "2", label: "Years Experience" },
             { value: "10+", label: "Projects Completed" },
           ].map((stat, index) => (
             <motion.div

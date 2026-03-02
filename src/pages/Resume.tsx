@@ -9,7 +9,7 @@ const experience = [
   {
     title: "WordPress Developer",
     company: "Connexix",
-    period: "2024  MAY – 2024 NOVEMBER",
+    period: "2024 January – 2024 May",
     description: "Worked as a WordPress Developer, designing, building, andoptimizing websites, landing pages, and custom themes. Focused oncreating responsive, user-friendly sites that improve performance andoverall business efficiency. Skilled in plugin integration, pagebuilders, and streamlining client website operations.",
 achievements: [
   "Built responsive WordPress websites",
@@ -20,11 +20,11 @@ achievements: [
   {
     title: "Full-Stack Web Developer",
     company: "Webbugs",
-    period: "2025 JANUARY – 2025 September",
-    description: "Worked as a Full-Stack Web Developer specializing in buildingdynamic and responsive web applications. Designed andimplemented RESTful APIs using Django and integrated them withReact.js frontend, optimized application performance, managedPostgreSQL databases, and ensured seamless user experiencesacross all devices. Collaborated on end-to-end development, from UIdesign to backend architecture.",
+    period: "2024 August – 2025 December",
+    description: "Worked as a Full-Stack Web Developer specializing in buildingdynamic and responsive web applications. Designed andimplemented RESTful APIs using Node.js and integrated them with React.js frontend, optimized application performance, managedPostgreSQL databases, and ensured seamless user experiencesacross all devices. Collaborated on end-to-end development, from UIdesign to backend architecture.",
 achievements: [
   "Developed full-stack web applications",
-  "Connected Django backend with React frontend",
+  "Integrated Node.js backend APIs with React and Next.js frontend applications.",
   "Improved website performance and user experience",
 ]
   },
@@ -33,7 +33,7 @@ achievements: [
 const education = [
    {
     degree: "BS Computer Science",
-    school: "Superior University, Lahore",
+    school: "Superior University, Lahore", 
     period: "2022 - 2025",
   },
   // {
@@ -44,8 +44,8 @@ const education = [
 ];
 
 const skills = [
-  { category: "Frontend", items: ["React", "Javascript", "TypeScript", "Tailwind CSS", "Framer Motion", "Shadcn"] },
-  { category: "Backend", items: ["Python", "Django", "Django Rest Framework", "PostgreSQL"] },
+  { category: "Frontend", items: ["React.js", "Next.js", "Javascript", "TypeScript", "Tailwind CSS", "Framer Motion", "Shadcn"] },
+  { category: "Backend", items: ["Node.js", "Express.js", "PostgreSQL"] },
 ];
 
 const Resume = () => {

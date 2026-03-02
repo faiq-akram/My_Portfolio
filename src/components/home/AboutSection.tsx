@@ -6,7 +6,7 @@ const skills = [
   {
     icon: Code2,
     title: "Full-Stack Web Development",
-    description: "Building scalable applications with React, Django, and modern cloud infrastructure.",
+    description: "Building scalable applications with React & Next.js and modern cloud infrastructure.",
   },
   {
     icon: Palette,
@@ -44,7 +44,7 @@ export const AboutSection = () => {
             Passionate About <span className="gradient-text">Creating Impact</span>
           </h2>
           <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
-            With over 1 year of experience in software development, I specialize in building 
+            With over 2 years of experience in software development, I specialize in building 
             products that are not only functional but also delightful to use.
           </p>
         </motion.div>
@@ -88,8 +88,8 @@ export const AboutSection = () => {
               {[
                 { label: "React.js", level: 95 },
                 { label: "TypeScript", level: 90 },
-                { label: "Django", level: 85 },
-                { label: "Python", level: 80 },
+                { label: "Next.js", level: 85 },
+                { label: "Node.js", level: 80 },
               ].map((skill) => (
                 <div key={skill.label} className="glass-card p-4">
                   <div className="text-sm font-medium mb-2">{skill.label}</div>
